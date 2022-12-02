@@ -61,9 +61,3 @@ fn main() {
     println!("{}", sum);
 
 }
-
-
-
-// A ROCK X
-// B PAPER Y
-// C SCISSORS Z
