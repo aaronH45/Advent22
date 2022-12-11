@@ -9,7 +9,7 @@ fn main() {
 
     let contents = fs::read_to_string(file_path)
     .expect("Should have been able to read the file");
-    let v: Vec<&str> = contents.lines().collect();
+    let lines: Vec<&str> = contents.lines().collect();
 
 
     let mut sum: u32 = 0;
@@ -17,7 +17,7 @@ fn main() {
 
     if part == "1" {
 
-        for i in &v{
+        for line in &lines{
 
         }
 

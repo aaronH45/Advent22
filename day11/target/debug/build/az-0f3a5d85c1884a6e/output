@@ -1,0 +1,6 @@
+$ mkdir -p "d:\\projects\\Advent22\\day11\\target\\debug\\build\\az-0f3a5d85c1884a6e\\out\\try_track_caller"
+$ cd "d:\\projects\\Advent22\\day11\\target\\debug\\build\\az-0f3a5d85c1884a6e\\out\\try_track_caller"
+$ printf '%s' "// try_tra"... > "d:\\projects\\Advent22\\day11\\target\\debug\\build\\az-0f3a5d85c1884a6e\\out\\try_track_caller\\try_track_caller.rs"
+$ "rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "d:\\projects\\Advent22\\day11\\target\\debug\\build\\az-0f3a5d85c1884a6e\\out\\try_track_caller"
